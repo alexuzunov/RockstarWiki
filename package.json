@@ -1,0 +1,32 @@
+{
+  "name": "rockstarwiki",
+  "version": "1.0.0",
+  "description": "An aspiring replica of what may seem as a Rockstar-related Wikipedia page.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexuzunov/RockstarWiki.git"
+  },
+  "keywords": [
+    "rockstar",
+    "wikipedia"
+  ],
+  "author": "Alex Uzunov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexuzunov/RockstarWiki/issues"
+  },
+  "homepage": "https://github.com/alexuzunov/RockstarWiki#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-csslint": "^1.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-lint": "^1.4.0"
+  }
+}
