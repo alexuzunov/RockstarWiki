@@ -25,57 +25,13 @@ header > img {
 main {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
-	.mainStuff {
-		color: #8f8989;
-		background: #1f1e1e;
-		margin: 20px 0px 20px 20px;
-		border-radius: 10px;
-		display: flex;
-		flex-direction: column;
-		flex-basis: 1000px;
-		flex-grow: 0;
-		flex-shrink: 0;
-		.main > .text {
-			display: flex;
-			flex-direction: column;
-		}
-		.main {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: nowrap;
-			img {
-				height: 350px;
-				width: 480px;
-				margin-right: 50px;
-				align-self: center;
-			}
-		}
-		h2 {
-			font-size: 30px;
-		}
-		p {
-			width: 50%;
-		}
-		h2, p {
-			margin-left: 30px;
-		}
-		hr {
-			height: 1px;
-			border: none;
-			background: #c4bbbb;
-			width: 95%;
-		}
-	}
-	.quotes {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	img {
+		border-radius: 8px;
 		margin: 20px 20px 0 20px;
-		p {
-			text-align: center;
-			text-shadow: 1px 1px #1f1e1e;
-		}
+		height: 300px;
+		width: 400px;
 	}
 }
 

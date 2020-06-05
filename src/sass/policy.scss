@@ -23,59 +23,32 @@ header > img {
 }
 
 main {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	.mainStuff {
-		color: #8f8989;
-		background: #1f1e1e;
-		margin: 20px 0px 20px 20px;
-		border-radius: 10px;
-		display: flex;
-		flex-direction: column;
-		flex-basis: 1000px;
-		flex-grow: 0;
-		flex-shrink: 0;
-		.main > .text {
+	h3, h5 {
+		color: #1a1e24;
+		text-align: center;
+	}
+	hr {
+		height: 2px;
+		border: none;
+		background: #142136;
+		width: 98%;
+	}
+	section {
+		ul {
+			border-radius: 10px;	
 			display: flex;
 			flex-direction: column;
-		}
-		.main {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: nowrap;
-			img {
-				height: 350px;
-				width: 480px;
-				margin-right: 50px;
-				align-self: center;
+			justify-content: space-between;
+			list-style-type: none;
+			li {
+				background: #1f1e1e;
+				border-radius: 10px;
+				color: #8f8989;
+				margin: 10px 30px 10px 0;
+				padding: 10px 10px 10px 10px;
 			}
 		}
-		h2 {
-			font-size: 30px;
-		}
-		p {
-			width: 50%;
-		}
-		h2, p {
-			margin-left: 30px;
-		}
-		hr {
-			height: 1px;
-			border: none;
-			background: #c4bbbb;
-			width: 95%;
-		}
-	}
-	.quotes {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-		margin: 20px 20px 0 20px;
-		p {
-			text-align: center;
-			text-shadow: 1px 1px #1f1e1e;
-		}
+		
 	}
 }
 
