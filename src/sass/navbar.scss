@@ -1,0 +1,104 @@
+nav {
+	width: 100%;
+	background: #dbc200;
+}
+
+nav .arrowDown {
+  	border: solid black;
+  	border-width: 0 0.2em 0.2em 0;
+  	display: inline-block;
+  	padding: 0.2em;
+ 	margin-left: 1em;
+  	transform: rotate(45deg);
+}
+
+nav .arrowRight {
+	border: solid black;
+	border-width: 0 0.2em 0.2em 0;
+	display: inline-block;
+	padding: 0.2em;
+	margin-left: 1em;
+	transform: rotate(-45deg);
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+nav .first > li {
+	display: inline-block;
+}
+
+nav .first > li > a {
+	background: #dbc200;
+	color: #1d0052;
+	display: block;
+	font-size: 20px;
+	margin: 0;
+	padding: 0.75em 0.75em 0.75em 0.75em;
+	position: relative;
+	text-align: left;
+	text-decoration: none;
+}
+
+nav .second > li > a {
+	background: #58d400;
+	color: #1d0052;
+	display: block;
+	font-size: 15px;
+	margin: 0;
+	padding: 0.75em 0.75em 0.75em 0.75em;
+	position: relative;
+	text-align: left;
+	text-decoration: none;
+}
+
+nav .third > li > a {
+	background: #ffae00;
+	color: #1d0052;
+	display: block;
+	font-size: 15px;
+	margin: 0;
+	padding: 0.75em 0.75em 0.75em 0.75em;
+	position: relative;
+	text-align: left;
+	text-decoration: none;
+}
+
+nav .second, .third {
+	position: absolute;
+	display: none;
+}
+
+nav .third {
+	top: 0;
+	right: 0;
+	transform: translate(100%, 0);
+}
+
+
+nav .first > li:hover > a {
+	background: #a37500;
+	cursor: pointer;
+}
+
+nav .second > li:hover > a {
+	background: #45a600;
+	cursor: pointer;
+}
+
+nav .third > li:hover > a {
+	background: #cc8b00;
+	cursor: pointer;
+}
+
+nav .second li, .third li {
+	position: relative;
+}
+
+nav .first > li:hover .second, nav .second > li:hover .third {
+	display: block;
+}
