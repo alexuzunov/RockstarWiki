@@ -27,3 +27,21 @@ main {
       main .main-stuff .main img {
         width: 40em;
         height: 20em; }
+        @media screen and (max-width: 740px) {
+          main .main-stuff .main img {
+            width: 35em; } }
+        @media screen and (max-width: 650px) {
+          main .main-stuff .main img {
+            width: 30em; } }
+        @media screen and (max-width: 560px) {
+          main .main-stuff .main img {
+            width: 25em; } }
+        @media screen and (max-width: 470px) {
+          main .main-stuff .main img {
+            width: 20em; } }
+        @media screen and (max-width: 380px) {
+          main .main-stuff .main img {
+            width: 15em; } }
+        @media screen and (max-width: 290px) {
+          main .main-stuff .main img {
+            width: 10em; } }
