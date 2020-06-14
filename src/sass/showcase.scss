@@ -15,12 +15,19 @@ body {
 		width: 95%;
 	}
 	main {
+		@media screen and (max-width: 600px) {
+			flex-direction: column;				
+		}
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-evenly;
 		h1, h2, h3, h4, h5, h6, p {
 			color: #8f8989;
+		}
+		p {
+			width: 50%;
+			margin-left: 1.95em;
 		}
 		img {
 			border-radius: 0.5em;

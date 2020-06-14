@@ -1,4 +1,10 @@
 main {
+	@media screen and (max-width: 1100px) 
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -12,15 +18,27 @@ main {
 		flex-basis: 60em;
 		flex-grow: 0;
 		flex-shrink: 0;
+		@media screen and (max-width: 700px) 
+		{
+			align-items: center;
+		}
 		.main > .text {
 			display: flex;
 			flex-direction: column;
+			@media screen and (max-width: 700px) 
+			{
+				align-items: center;
+			}
 		}
 		.main {
 			display: flex;
 			flex-direction: row;
 			flex-wrap: nowrap;
 			img {
+				@media screen and (max-width: 700px) 
+				{
+					display: none;
+				}
 				height: 22em;
 				margin-right: 3.25em;
 				align-self: center;
