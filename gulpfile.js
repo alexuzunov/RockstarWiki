@@ -9,13 +9,13 @@ gulp.task('sass', () => {
 	return gulp.src('./src/sass/*.scss')
 		.pipe(sass().on('error', sass.logError))
 		.pipe(postcss([ autoprefixer() ]))
-		.pipe(gulp.dest('./dist/css'))
+		.pipe(gulp.dest('./main/css'))
 });
 
 gulp.task('minify', () => {
-	return gulp.src('./dist/css/*.css')
+	return gulp.src('./main/css/*.css')
 		.pipe(clean())
-		.pipe(gulp.dest('./dist/css/minifiles'))
+		.pipe(gulp.dest('./main/css/minifiles'))
 });
 
 gulp.task('lint', () => {
